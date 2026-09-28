@@ -1,11 +1,6 @@
-def divide(x):
-    return x*int(.5)
-x=int (input("gimme number now"))
-print(divide(x)) 
-if float:
-    print( "odd")
-elif float== False :
-    print ("even")
-
-
+x= int( input ("gimme number now "))
+if x % 2 ==0 : 
+    print("even")
+else :
+    print("odd")
     
