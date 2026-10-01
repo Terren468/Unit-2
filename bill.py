@@ -1,7 +1,11 @@
-bill = input( "how was the service")
-if bad: 
-    
-if okay== bill* 1.15: 
-if good== bill* 1.2:
-if great== bill* 1.25:
-
+bill = int(input( "how much was the meal"))
+tip = int(input ("how was the service"))
+total= (bill + bill*tip) 
+if tip == int("bad"):
+    print (total (bill + bill*0  ))
+elif tip==int("okay"):
+    print( total (bill + bill*.15))
+elif tip == int("good"):
+    print(total (bill + bill*.20))
+elif tip ==int ("great"):
+    print (total(bill + bill*.20))
