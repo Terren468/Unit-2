@@ -1,13 +1,12 @@
-bill = int(input( "how much was the meal"))
+bill = float(input( "how much was the meal"))
 tip = input ("how was the service")
 tip= [0, 0.15, 0.20, 0.25]
-total= (bill + bill*tip) 
 
 if tip == "bad":
-    print (total (bill + tip[0] ))
+    print ("your total is $", str(bill + bill* tip[0]))
 elif tip=="okay":
-    print( total (bill + tip[1]))
+    print ("your total is $",str(bill + bill*tip[1]))
 elif tip == "good":
-    print(total (bill + tip[2]))
+    print ("your total is $" ,str(bill + bill*tip[2]))
 elif tip =="great":
-    print (total(bill + tip[3]))
+    print ("your total is $",str (bill + bill*tip[3]))
